@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 600px;
+  background: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.logo {
+  width: 120px; /* Definido no HTML, mas garantindo que o CSS não o sobrescreva de forma indesejada */
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.login-left {
+  flex: 1;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-container h2 {
+  font-size: 2.2rem;
+  color: #333;
+}
+
+.sub {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+<<<<<<< HEAD
+}
+
+.input-group {
+    position: relative; /* Mantenha se você tem ícones posicionados absolutamente */
+    margin-bottom: 20px; /* Adicione esta linha para criar espaço abaixo de cada campo */
+    /* ... outras propriedades que já existiam, por exemplo: */
+    /* display: flex; */
+    /* align-items: center; */
+    /* border: 1px solid #ddd; */
+    /* border-radius: 8px; */
+    /* overflow: hidden; */
+}
+
+.input-group:focus-within {
+    border-color: #00aeef; /* Exemplo de cor de destaque ao focar */
+    box-shadow: 0 0 0 2px rgba(0, 174, 239, 0.2);
+}
+
+
+.input-group i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px 12px 45px; /* Ajuste o padding-left se o ícone estiver fixo */
+    border: 1px solid #ccc; /* Pode ajustar conforme seu design */
+    border-radius: 8px; /* Mantenha arredondamento */
+    font-size: 1rem;
+    outline: none; /* Remover outline padrão do navegador */
+    transition: border-color 0.3s ease;
+}
+
+.toggle-password {
+  cursor: pointer;
+}
+
+.btn-login {
+  border: none;
+  padding: 14px;
+  border-radius: 25px;
+  background: #00aeef;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%; /* Adicionado para ocupar a largura total do container */
+}
+
+.btn-login:hover {
+  background: #008ec3;
+}
+
+.links {
+  margin-top: 15px;
+  text-align: center; /* Alterado para centralizar os links */
+}
+
+.links a {
+  font-size: 0.9rem;
+  color: #00aeef;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #aaa;
+}
+
+.login-right {
+  flex: 1;
+  background-color: #ccefff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-right img {
+  max-width: 90%;
+  height: auto;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .login-wrapper {
+    flex-direction: column;
+    min-height: auto; /* Ajuste para telas menores */
+  }
+
+  .login-right {
+    display: none;
+  }
+
+  .login-left {
+    padding: 40px 20px;
+    width: 100%; /* Garante que o lado esquerdo ocupe a largura total */
+  }
+
+  .logo {
+    margin: 0 auto 20px auto; /* Centraliza a logo em telas menores */
+  }
+}
+
+=======
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  border: 2px solid #e0e0e0;
+  border-radius: 25px;
+  padding: 12px 16px;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.input-group:focus-within {
+  border-color: #00aeef;
+}
+
+.input-group i {
+  color: #999;
+  margin-right: 10px;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 1rem;
+  background: transparent;
+}
+
+.toggle-password {
+  cursor: pointer;
+}
+
+.btn-login {
+  border: none;
+  padding: 14px;
+  border-radius: 25px;
+  background: #00aeef;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%; /* Adicionado para ocupar a largura total do container */
+}
+
+.btn-login:hover {
+  background: #008ec3;
+}
+
+.links {
+  margin-top: 15px;
+  text-align: center; /* Alterado para centralizar os links */
+}
+
+.links a {
+  font-size: 0.9rem;
+  color: #00aeef;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #aaa;
+}
+
+.login-right {
+  flex: 1;
+  background-color: #ccefff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-right img {
+  max-width: 90%;
+  height: auto;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .login-wrapper {
+    flex-direction: column;
+    min-height: auto; /* Ajuste para telas menores */
+  }
+
+  .login-right {
+    display: none;
+  }
+
+  .login-left {
+    padding: 40px 20px;
+    width: 100%; /* Garante que o lado esquerdo ocupe a largura total */
+  }
+
+  .logo {
+    margin: 0 auto 20px auto; /* Centraliza a logo em telas menores */
+  }
+}
+
+>>>>>>> 2c7fd5e59c6dd67ec7f1d14c70b6fb1e2a038d2e
+@media (max-width: 500px) {
+  .login-left {
+    padding: 30px 15px;
+  }
+
+  .form-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .sub {
+    font-size: 0.9rem;
+  }
+}

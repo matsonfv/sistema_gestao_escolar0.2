@@ -282,10 +282,9 @@ sistema-gestao-escolar/
 ## 👥 Suporte
 
 Para dúvidas ou problemas:
-1. Verifique a seção "Solução de Problemas"
-2. Confirme se todas as dependências estão instaladas
-3. Verifique se a porta 3000 está disponível
-4. Consulte os logs do servidor no terminal
+1. Confirme se todas as dependências estão instaladas
+2. Verifique se a porta 3000 está disponível
+3. Consulte os logs do servidor no terminal
 
 ## 📄 Licença
 

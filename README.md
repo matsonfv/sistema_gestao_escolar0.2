@@ -279,16 +279,22 @@ sistema-gestao-escolar/
 - [ ] Deploy em nuvem com Docker
 - [ ] Migração do banco para PostgreSQL
 
+## 👥 Suporte
+
+Para dúvidas ou problemas:
+1. Verifique a seção "Solução de Problemas"
+2. Confirme se todas as dependências estão instaladas
+3. Verifique se a porta 3000 está disponível
+4. Consulte os logs do servidor no terminal
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para fins educacionais e de demonstração.
+
 ---
 
-## 👨‍💻 Autor
+**Sistema de Gestão Escolar** - Desenvolvido com ❤️ usando tecnologias web modernas.
 
-Desenvolvido por **Matson** — estudante de Técnico em Informática para Internet no SENAC/RN e graduado em Ciências e Tecnologia pela UFRN.
-
-[![GitHub](https://img.shields.io/badge/GitHub-seu--usuario-181717?style=for-the-badge&logo=github)](https://github.com/seu-usuario)
+[![GitHub](https://img.shields.io/badge/GitHub-matsonfv-181717?style=for-the-badge&logo=github)](https://github.com/seu-usuario)
 
 ---
-
-<div align="center">
-  <sub>Feito com 💙 e Node.js</sub>
-</div>

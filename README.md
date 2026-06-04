@@ -295,6 +295,6 @@ Este projeto foi desenvolvido para fins educacionais e de demonstração.
 
 **Sistema de Gestão Escolar** - Desenvolvido com ❤️ usando tecnologias web modernas.
 
-[![GitHub](https://img.shields.io/badge/GitHub-matsonfv-181717?style=for-the-badge&logo=github)](https://github.com/seu-usuario)
+[![GitHub](https://img.shields.io/badge/GitHub-matsonfv-181717?style=for-the-badge&logo=github)](https://github.com/matsonfv)
 
 ---
